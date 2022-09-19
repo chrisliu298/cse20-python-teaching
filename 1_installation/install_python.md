@@ -32,6 +32,8 @@ Once you have downloaded the installer, go to the [installation instruction page
 
 ![miniconda macOS installation instruction](images/miniconda-macos.png)
 
+**Note**: If you choose to use miniconda as your Python installer, the best practice is to create an environment instead of operating on the default environment (i.e., no environment). This is especially important if you want to upgrade Python or install a version different from the one you have. [This page](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html#updating-or-upgrading-python) might be helpful if you want to do so.
+
 ## Creating a standalone environment (optional)
 
 There is nothing wrong with using an out-of-the-box version of Python, but it is sometimes better to use an "environment," which can be considered as a container that is safe enough for you to play with. People sometimes create a new environment when they have a new "project."
