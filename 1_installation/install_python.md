@@ -1,10 +1,10 @@
 # Installing Python
 
-> 1. Whenever I say Python in this tutorial, I mean Python 3. DO NOT INSTALL Python 2.
+> Whenever I say Python in this tutorial, I mean Python 3. DO NOT INSTALL Python 2.
 
 ## Installing from python.org
 
-Note: Sometimes you machine comes with a pre-installed copy of Python. If that is the case, you should still install a new Python copy, because the pre-installed one might serve as a part of your operating system.
+**Note**: Sometimes you machine comes with a pre-installed copy of Python. If that is the case, you should still install a new Python copy, because the pre-installed one might serve as a part of your operating system.
 
 There are various ways to install Python. The simplest way is to directly download the installation package matching your operating system and architecture from [python.org](https://www.python.org/), which is recommended for those who have not installed Python on their machines and want a painless installation process. Once you have finished, open your terminal and type `python3`. If you see no error message and something like below, it means your installation is successful.
 
@@ -28,7 +28,7 @@ Go to miniconda's [homepage](https://docs.conda.io/en/latest/miniconda.html), an
 
 Once you have downloaded the installer, go to the [installation instruction page](https://conda.io/projects/conda/en/latest/user-guide/install/index.html). Under "Regular installation," choose your operating system. For macOS, the page assumes you downloaded the command line installer with `bash` suffix, and you can accept most of the defaults (unless you know a certain default is not what you want). The same applies to a graphical installer.
 
-Note: You can skip step 2 in the instruction below, as that does not affect your installation.
+**Note**: You can skip step 2 in the instruction below, as that does not affect your installation.
 
 ![miniconda macOS installation instruction](images/miniconda-macos.png)
 
