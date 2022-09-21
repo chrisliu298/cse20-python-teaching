@@ -11,7 +11,7 @@
 ## Before you start
 
 - Whenever I say Python in this tutorial, I mean Python 3.*. **DO NOT INSTALL Python 2.\***.
-- I introduce two ways to install Python. Decide which one is better after at least skimming through both, unless you already know which one you want to use.
+- I introduce three ways to install Python. Decide which one is better after at least skimming through all of them, unless you already know which one you want to use.
 - In this tutorial, I focus on macOS. If you are using other operating systems, you can still follow along, but you might need to do some extra work or do it slightly differently based on the links I provide.
 
 ## Installing from python.org
