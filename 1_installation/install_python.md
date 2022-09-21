@@ -4,6 +4,7 @@ Before you start:
 
 - Whenever I say Python in this tutorial, I mean Python 3.*. **DO NOT INSTALL Python 2.\***.
 - I introduce two ways to install Python. Decide which one is better after at least skimming through both, unless you already know which one you want to use.
+- In this tutorial, I focus on macOS. If you are using other operating systems, you can still follow along, but you might need to do some extra work or do it slightly differently based on the links I provide.
 
 ## Installing from python.org
 
@@ -54,11 +55,15 @@ Once you have downloaded the installer, go to the [installation instruction page
 
 <!-- If you choose to use miniconda as your Python installer, the best practice is to create an environment instead of operating on the default environment (i.e., no environment). This is especially important if you want to upgrade Python or install a version different from the one you have. [This page](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-python.html#updating-or-upgrading-python) might be helpful if you want to do so. -->
 
+## Installing via Homebrew
+
+Homebrew is also an option if you use macOS, but I won't go into details here. If you are interested, check out their [installation page](https://brew.sh/).
+
 ## Creating a standalone environment (optional)
 
 There is nothing "wrong" with using an out-of-the-box Python, but it is sometimes better to use an "environment," which can be considered as a container that is safe enough for you to play with. The benefit of using an environment might not be obvious in this course, but you'll see it in more advanced usage involving multiple Python versions and packages. For example, people sometimes create a new environment specific to a project, so that they can easily switch between different projects without messing up the dependencies (you'll learn about this later).
 
-For CSE 20, the course itself can be treated a project, and when you later take other courses that require you to write Python code, you can create individual environments for each of those courses (or each project within a single course if you like). When you interact with Python in a particular environment, most of what you do will not affect the state of other environments. This can be helpful if you accidentally corrupt some of the Python-related files or packages in that environment, because you can simply go ahead and create a new one. You can also select a specific version of Python (i.e., Python 3.\*) for a certain environment. If you want to know more, check out the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) in Python.
+For CSE 20, the course itself can be treated a project, and when you later take other courses that require you to write Python code, you can create individual environments for each of those courses (or each project within a single course if you like). When you interact with Python in a particular environment, most of what you do will not affect the state of other environments. This can be helpful if you accidentally corrupt some of the Python-related files or packages in that environment, because you can simply go ahead and create a new one. You can also select a specific version of Python (i.e., Python 3.\*) for a certain environment. If you installed Python via [python.org](https://www.python.org/) or Homebrew, check out the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) on how to create an environment.
 
 miniconda also comes with this functionality. To create a new environment named `cse20` for this course with Python `3.10`, you can simply execute the line below in your terminal. If the python version is missing, it by defaults gives you the latest version. For further details and how to manage environment, please refer to [this page](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands).
 
