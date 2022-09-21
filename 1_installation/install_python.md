@@ -69,7 +69,7 @@ Homebrew is also an option if you use macOS, but I won't go into details here. I
 
 ## Creating a standalone environment (optional)
 
-There is nothing "wrong" with using an out-of-the-box Python, but it is sometimes better to use an "environment," which can be considered as a container that is safe enough for you to play with. The benefit of using an environment might not be obvious in this course, but you'll see it in more advanced usage involving multiple Python versions and packages. For example, people sometimes create a new environment specific to a project, so that they can easily switch between different projects without messing up the dependencies (you'll learn about this later).
+There is nothing "wrong" with using an out-of-the-box Python, but it is sometimes better to use an "environment," which can be considered as a container that is safe enough for you to play with. In fact, **it is always a best practice to use a (virtual) environment** (read [this](https://snarky.ca/why-you-should-use-python-m-pip/) if you want to know why). The benefit of using an environment might not be obvious in this course, but you'll see it in more advanced usage involving multiple Python versions and packages. For example, people sometimes create a new environment specific to a project, so that they can easily switch between different projects without messing up the dependencies (you'll learn about this later).
 
 For CSE 20, the course itself can be treated a project, and when you later take other courses that require you to write Python code, you can create individual environments for each of those courses (or each project within a single course if you like). When you interact with Python in a particular environment, most of what you do will not affect the state of other environments. This can be helpful if you accidentally corrupt some of the Python-related files or packages in that environment, because you can simply go ahead and create a new one. You can also select a specific version of Python (i.e., Python 3.\*) for a certain environment. If you installed Python via [python.org](https://www.python.org/) or Homebrew, check out the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) on how to create an environment.
 
@@ -90,3 +90,13 @@ And once you are done and want to go back to the base environment, use
 ```shell
 conda deactivate
 ```
+
+## References
+
+- [python.org](https://www.python.org/)
+  - [venv](https://docs.python.org/3/library/venv.html#module-venv)
+- [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+  - [conda installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+  - [Creating an environment with commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
+- [Homebrew](https://brew.sh/)
+- [Why you should use `python -m pip`](https://snarky.ca/why-you-should-use-python-m-pip/)
