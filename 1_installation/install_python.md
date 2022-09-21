@@ -1,6 +1,14 @@
 # Installing Python
 
-Before you start:
+## Table of contents
+
+- [Before you start](#before-you-start)
+- [Installing from python.org](#installing-from-pythonorg)
+- [Installing via miniconda](#installing-via-miniconda)
+- [Installing via Homebrew](#installing-via-homebrew)
+- [Creating a standalone environment (optional)](#creating-a-standalone-environment-optional)
+
+## Before you start
 
 - Whenever I say Python in this tutorial, I mean Python 3.*. **DO NOT INSTALL Python 2.\***.
 - I introduce two ways to install Python. Decide which one is better after at least skimming through both, unless you already know which one you want to use.
