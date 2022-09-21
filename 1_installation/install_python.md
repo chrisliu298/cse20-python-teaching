@@ -20,7 +20,7 @@
 
 The simplest way to install Python is to directly download the installation package matching your operating system and architecture from [python.org](https://www.python.org/). This is strongly recommended for those who have not installed Python on their machines and want a painless installation process. Once you have finished, open your terminal and type `python3 -c "import this"`. This command directly executes the Python code in the quotation marks. If you see no error message and the same output like below, it means your installation is successful.
 
-```shell
+```text
 ❯ python -c "import this"
 The Zen of Python, by Tim Peters
 
