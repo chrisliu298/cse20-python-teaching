@@ -13,6 +13,7 @@
 - Whenever I say Python in this tutorial, I mean Python 3.*. **DO NOT INSTALL Python 2.\***.
 - I introduce three ways to install Python. Decide which one is better after at least skimming through all of them, unless you already know which one you want to use.
 - In this tutorial, I focus on macOS. If you are using other operating systems, you can still follow along, but you might need to do some extra work or do it slightly differently based on the links I provide.
+- For macOS users, it is recommended to execute `xcode-select --install` in the terminal. Without this, you might encounter some issues when installing Python via miniconda. See [here](https://www.freecodecamp.org/news/install-xcode-command-line-tools/) for more details.
 
 ## Installing from python.org
 
@@ -102,3 +103,4 @@ conda deactivate
 - [virtualenv](https://virtualenv.pypa.io/en/latest/)
 - [Why you should use `python -m pip`](https://snarky.ca/why-you-should-use-python-m-pip/)
 - [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
+- [How to Install Xcode Command Line Tools on a Mac](https://www.freecodecamp.org/news/install-xcode-command-line-tools/)
